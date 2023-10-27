@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.carousel-status{
+display: none
+}
+
+
+
+.carousel-root {
+    text-align: -webkit-center 
+}
+
+
+
+.carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+@layer components{
+  .align-element{
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+
