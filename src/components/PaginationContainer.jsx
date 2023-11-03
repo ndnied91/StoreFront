@@ -33,7 +33,7 @@ const PaginationContainer = () => {
   }
 
   return (
-    <div className="mt-16 flex justify-end">
+    <div className="mt-16 flex justify-center mb-5">
       <div className="join">
         <button
           disabled={page === 1 ? true : false}
