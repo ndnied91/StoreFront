@@ -101,7 +101,7 @@ const App = () => {
     <>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} /> {/* for routing */}
-        <ReactQueryDevtools initialIsOpen={false} />
+        {/* <ReactQueryDevtools initialIsOpen={false} /> */}
       </QueryClientProvider>
     </>
   );

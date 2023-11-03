@@ -30,7 +30,7 @@ export const loader =
   async ({ request }) => {
     const user = store.getState().userState.user;
     if (!user.username) {
-      toast.warm('Must log in to view orders');
+      toast.warn('Must log in to view orders');
       return redirect('/login');
     }
 
